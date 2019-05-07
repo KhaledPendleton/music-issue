@@ -4,12 +4,15 @@
     background-color: var(--color-main);
     color: var(--color-text);
     text-transform: uppercase;
-    flex: 1;
     flex-direction: column;
     height: inherit;
 }
 
 .accent { color: var(--color-pink); }
+
+main {
+    flex: 1;
+}
 
 /* Menubar
 -------------------------------------------------- */
