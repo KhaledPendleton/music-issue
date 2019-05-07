@@ -60,15 +60,15 @@ function createModel(settings) {
             features: {
                 hover: '',
                 articles: [
-                    { title: 'The Groovy Boys', src: 'https://www.bupipedream.com/ac/106830/music-issue-2019-the-groovy-boys/', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/04/Isaiah-King-Cruz1-684x1024.jpg' },
-                    { title: 'Moefest 2019', src: 'https://www.youtube.com/watch?v=7yN550kJZYg', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/04/Kojo-Senoo-2-2-1024x683.jpg' },
-                    { title: 'A space for underground music', src: 'https://www.bupipedream.com/ac/106786/avenue-diy-creates-a-space-for-underground-music/', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/05/Provided-by-Ave-DIY-1024x791.png' },
-                    { title: 'Ben Franklin and The Electric Keys', src: 'https://www.bupipedream.com/ac/106822/music-issue-2019-ben-franklin-and-the-electric-keys/', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/05/Rebecca-Kiss-2-1024x683.jpg' },
-                    { title: 'A glimpse into BU’s Kanye West Club', src: 'https://www.bupipedream.com/ac/106735/my-beautiful-dark-twisted-fanbase-a-glimpse-into-bus-kanye-west-club/', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/05/time-1024x576.png' },
-                    { title: 'Lunchtime Sets', src: 'https://www.youtube.com/watch?v=QguixYdGx2g', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/03/Kojo-Senoo-1024x575.jpg' },
-                    { title: 'natural born kissers', src: 'https://www.bupipedream.com/ac/106815/music-issue-2019-natural-born-kissers/', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/05/Rebecca-Kiss-1-1024x683.jpg' },
-                    { title: 'Laurence Elder', src: 'https://www.bupipedream.com/ac/106709/laurence-elder-brings-industry-experience-to-the-classroom/', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/05/Provided-by-Laurence-Elder-684x1024.jpg' },
-                    { title: 'Slag', src: 'https://www.bupipedream.com/ac/106803/music-issue-2019-slag/', thumbnail: 'https://www.bupipedream.com/wp-content/uploads/2019/05/Rebecca-Kiss-1024x683.jpg' }
+                    { title: 'The Groovy Boys', src: 'https://www.bupipedream.com/ac/106830/music-issue-2019-the-groovy-boys/', thumbnail: '/images/groovy-boys.jpg' },
+                    { title: 'Moefest 2019', src: 'https://www.youtube.com/watch?v=7yN550kJZYg', thumbnail: '/images/moefest-2019.jpg' },
+                    { title: 'A space for underground music', src: 'https://www.bupipedream.com/ac/106786/avenue-diy-creates-a-space-for-underground-music/', thumbnail: '/images/ave-diy.png' },
+                    { title: 'Ben Franklin and The Electric Keys', src: 'https://www.bupipedream.com/ac/106822/music-issue-2019-ben-franklin-and-the-electric-keys/', thumbnail: '/images/electric-keys.jpg' },
+                    { title: 'A glimpse into BU’s Kanye West Club', src: 'https://www.bupipedream.com/ac/106735/my-beautiful-dark-twisted-fanbase-a-glimpse-into-bus-kanye-west-club/', thumbnail: '/images/kanye.png' },
+                    { title: 'Lunchtime Sets', src: 'https://www.youtube.com/watch?v=QguixYdGx2g', thumbnail: '/images/lunchtime-sets.jpg' },
+                    { title: 'natural born kissers', src: 'https://www.bupipedream.com/ac/106815/music-issue-2019-natural-born-kissers/', thumbnail: '/images/natural-born-kissers.jpg' },
+                    { title: 'Laurence Elder', src: 'https://www.bupipedream.com/ac/106709/laurence-elder-brings-industry-experience-to-the-classroom/', thumbnail: '/images/laurence-elder.jpg' },
+                    { title: 'Slag', src: 'https://www.bupipedream.com/ac/106803/music-issue-2019-slag/', thumbnail: '/images/slag.jpg' }
                 ]
             }
         }
