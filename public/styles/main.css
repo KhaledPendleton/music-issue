@@ -5,7 +5,9 @@
     color: var(--color-text);
     text-transform: uppercase;
     flex-direction: column;
-    height: inherit;
+    height: 100%;
+    width: 100%;
+    flex: 1;
 }
 
 .accent { color: var(--color-pink); }
