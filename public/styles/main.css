@@ -97,7 +97,6 @@ span {
 .features .thumbnail {
     margin: 2em 0;
     display: inline-block;
-    opacity: .75;
     z-index: calc(var(--zIndex-7--feature) - 25); /* TODO: Rough and tumble. fix this */
 }
 
@@ -113,4 +112,5 @@ span {
     max-width: 90%;
     margin: auto;
     display: block;
+    pointer-events: none;
 }

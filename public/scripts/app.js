@@ -310,8 +310,8 @@ function createView() {
 
     function FeatureThumbnail(article, actions) {
         const declaration = `a[href="${ article.src }"][target="_blank"].thumbnail.u-pos--relative`;
-        const mouseenterAction = (e) => actions.onFeatureThumbnailHover(article.title);
-        const mouseoutAction = (e) => actions.onFeatureThumbnailHover('');
+        const mouseenterAction = (e) => {console.log('in');actions.onFeatureThumbnailHover(article.title);}
+        const mouseoutAction = (e) => {console.log('out'); actions.onFeatureThumbnailHover('');}
         return m(declaration, { onmouseenter: mouseenterAction, onmouseout: mouseoutAction }, FeatureImage(article.thumbnail));
     }
 
