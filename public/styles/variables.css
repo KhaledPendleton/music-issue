@@ -1,0 +1,57 @@
+:root {
+    /* Z-Index Scale
+    -------------------------------------------------- */
+    --zIndex-1: 100;
+    --zIndex-2: 200;
+    --zIndex-3: 300;
+    --zIndex-4: 400;
+    --zIndex-5: 500;
+    --zIndex-6: 600;
+    --zIndex-7: 700;
+    --zIndex-8: 800;
+    --zIndex-9: 900;
+    --zIndex-10: 1000; /* Hopefully nothing is ever this level */
+
+    --zIndex-7--feature: calc(var(--zIndex-7) + 25);
+    --zIndex-9--menubar: calc(var(--zIndex-9) + 25);
+    --zIndex-9--banner: calc(var(--zIndex-9) + 50);
+
+    /* Spacing
+    ************************************************/
+    --spacing: calc(16px + 6 * ((100vw - 300px) / 900));
+
+    /* Colors
+    ************************************************/
+    --color-black: rgb(35, 31, 32);
+    --color-white: rgb(250, 250, 250);
+    --color-pink: rgb(234, 20, 140);
+    --color-transparent: rgb(0, 0, 0, 0);
+
+    /* Text
+    ************************************************/
+    /* font family */
+    --fontFamily-drukWide--med: 'Druk Wide Medium', sans-serif; 
+
+    /* font size */
+    --fontSize--smallest: calc(var(--fontSize--base) * 0.25);
+    --fontSize--smaller: calc(var(--fontSize--base) * 0.5);
+    --fontSize--small: calc(var(--fontSize--base) * 0.75);
+    --fontSize--base: calc(1rem + 6 * ((100vw - 300px) / 900)); /* Based on: 16px/22px font AND 300px/1200px view */
+    --fontSize--large: calc(var(--fontSize--base) * 1.5);
+    --fontSize--larger: calc(var(--fontSize--base) * 1.75);
+    --fontSize--largest: calc(var(--fontSize--base) * 2.25);
+}
+
+.theme--dark {
+    --color-main: var(--color-black);
+    --color-text: var(--color-white);
+    --color-stroke: var(--color-white);
+    --color-accent: var(--color-pink);
+}
+
+.theme--light {
+    --color-main: var(--color-white);
+    --color-text: var(--color-black);
+    --color-stroke: var(--color-black);
+    --color-accent: var(--color-pink);
+}
