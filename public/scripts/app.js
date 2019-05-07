@@ -129,7 +129,7 @@ function createView() {
     return app;
 
     function app(model, actions) {
-        return m('div.theme--dark', [
+        return m('div.u-dp--flex.theme--dark', [
             Menubar(model),
             Banner(model, actions),
             View(model, actions),
