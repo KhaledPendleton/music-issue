@@ -44,9 +44,9 @@
     padding: calc(var(--spacing) * 0.25) 0;
 }
 
-[aria-label="features"] article {
+/* [aria-label="features"] article {
     
-}
+} */
 
 footer {
     width: 100%;
