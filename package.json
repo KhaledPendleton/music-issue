@@ -1,27 +1,32 @@
 {
-  "name": "music-issue",
-  "version": "1.0.0",
-  "description": "Music Issue provides links to stories, videos, and playlists that Pipe Dream felt everyone should know about",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KhaledPendleton/music-issue.git"
-  },
-  "keywords": [
-    "music",
-    "newspaper",
-    "pipe dream",
-    "mithriljs",
-    "javascript",
-    "spa"
-  ],
-  "author": "Khaled Pendleton",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KhaledPendleton/music-issue/issues"
-  },
-  "homepage": "https://github.com/KhaledPendleton/music-issue#readme"
+    "name": "music-issue",
+    "version": "1.0.0",
+    "description": "Music Issue provides links to stories, videos, and playlists that Pipe Dream felt everyone should know about",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KhaledPendleton/music-issue.git"
+    },
+    "keywords": [
+        "music",
+        "newspaper",
+        "pipe dream",
+        "mithriljs",
+        "javascript",
+        "spa"
+    ],
+    "author": "Khaled Pendleton",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/KhaledPendleton/music-issue/issues"
+    },
+    "homepage": "https://github.com/KhaledPendleton/music-issue#readme",
+    "devDependencies": {
+        "webpack": "^4.40.2",
+        "webpack-cli": "^3.3.8"
+    }
 }
