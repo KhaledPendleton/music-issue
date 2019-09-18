@@ -6,6 +6,10 @@ import { NavPrimary } from "./Nav-Primary";
 
 export const Layout = {
     view: (vnode) => {
-        return m(NavPrimary);
+        const { children } = vnode;
+        return [
+            m(NavPrimary),
+            children
+        ];
     }
 }
