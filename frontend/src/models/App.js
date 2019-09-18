@@ -1,12 +1,9 @@
 'use strict';
 
-import { Landing } from "../views/Landing";
-import { About } from "../views/About";
-
 export const App = {
-    routes: [
-        {path: '/', component: Landing},
-        {path: '/about', component: About}
+    pageLinks: [
+        {path: '/', title: 'Music Issue'},
+        {path: '/about', title: 'About'}
     ],
     socialAccounts: [
         {service: 'Twitter', url: 'https://twitter.com/bupipedream'},
